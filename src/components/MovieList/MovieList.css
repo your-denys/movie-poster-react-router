@@ -1,0 +1,28 @@
+.card-title {
+    text-decoration: none;
+    color: #212529;
+}
+.card-title:hover {
+    color: #21252998;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 577px) {
+  .card-item {
+    border: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .card-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  .card-item {
+    padding: 0;
+  }
+}

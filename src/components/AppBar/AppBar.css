@@ -1,0 +1,19 @@
+.img {
+  width: 90px;
+}
+.wrapperAppBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 776px) {
+  .img {
+    width: 80px;
+  }
+  .header {
+    position: fixed;
+    z-index: 1;
+    width: 102vw;
+    top: 0;
+  }
+}

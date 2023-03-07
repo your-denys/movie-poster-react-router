@@ -1,0 +1,41 @@
+.aditional-information__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.aditional-information__link {
+  text-decoration: none;
+  color: #212529af;
+  min-width: 150px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 22px;
+  border-radius: 10px;
+  border: 1px solid #1a1d2046;
+  margin: 0 13px;
+}
+
+.aditional-information__link:hover {
+  color: #fff;
+  background-color: #1a1d20;
+}
+.aditional-information__wrapper .active {
+  color: #fff;
+  background-color: #1a1d20;
+}
+
+@media screen and (max-width: 567px) {
+  .aditional-information__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 0 -20px;
+  }
+  .aditional-information__wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+  .aditional-information__link {
+    min-width: 230px;
+  }
+}

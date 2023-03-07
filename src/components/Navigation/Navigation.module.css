@@ -1,0 +1,28 @@
+.navLink {
+    color: #BFBFBF;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid rgba(255, 255, 255, 0); 
+    border-radius: 50%;
+
+
+}
+.icon {
+    width: 2.1rem;
+    height: auto;
+}
+.navLink:hover {
+    color: #fff;
+}
+.navLink {
+    margin: 0 20px;
+}
+@media screen and (max-width: 768px) {
+    .navLink{
+        margin: 0 6px;
+    }
+    .icon {
+
+        width: 1.7rem;
+    }
+}

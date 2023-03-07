@@ -1,0 +1,32 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+} 
+.page-link { 
+    color: #fff;
+    padding: 15px 20px;
+    background-color: #212529;
+}
+.active .page-link{
+    background-color: rgb(243, 242, 242);
+    color:#212529;
+    border: none;
+}
+.page-link:focus {
+    background-color: #212529;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+}
+.page-link:focus:hover {
+    background-color: #2125293f;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+}
+.page-link:hover {
+    background-color: #2125293f;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+}
