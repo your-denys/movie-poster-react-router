@@ -4,7 +4,7 @@ import './AditionalInformation.css';
 
 const AditionalInformation = () => {
   return (
-    <div>
+    <div className='mb-3'>
       <h3 className=" mt-md-5 mt-3 text-center">
         Додаткова інформація
       </h3 >
